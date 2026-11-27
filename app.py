@@ -1,6 +1,6 @@
 from datetime import datetime, time as dt_time, timezone
 import streamlit as st
-from supabase import create_client
+from supabase import create_client, Client
 
 # Doit être le premier appel Streamlit.
 st.set_page_config(
