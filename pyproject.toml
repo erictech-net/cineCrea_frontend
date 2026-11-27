@@ -11,8 +11,5 @@ requires-python = ">=3.12"
 dependencies = []
 
 [project.scripts]
-cine-front-bloc3 = "cine_front_bloc3:main"
+cine-front-bloc3 = "cine_front_bloc3:app"
 
-[build-system]
-requires = ["uv_build>=0.13.7,<0.14.0"]
-build-backend = "uv_build"
